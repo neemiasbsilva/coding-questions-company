@@ -1,4 +1,5 @@
 # Method 1 Simple
+# Complexity O(n^2)
 import numpy as np
 
 def subArraySum(arr, n, s):
