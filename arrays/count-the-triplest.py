@@ -30,11 +30,13 @@ def count_the_triplest(array, N):
 
 def main():
     T = input()
+    T = int(T)
     for i in range(0, T):
         N = input()
+        N = int(N)
         array = np.zeros(shape=(N))
-
-        array[i] = input()
+        for i in N:
+            array[i] = int(input())
 
         answer = count_the_triplest(array, N)
 
