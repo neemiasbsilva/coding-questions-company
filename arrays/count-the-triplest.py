@@ -35,7 +35,7 @@ def main():
         N = input()
         N = int(N)
         array = np.zeros(shape=(N))
-        for i in N:
+        for i in range(0, N):
             array[i] = int(input())
 
         answer = count_the_triplest(array, N)
