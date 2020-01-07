@@ -20,6 +20,7 @@ You can visualize the answer according to the topic of interest:
     <li>Backtracking;
     <li>Bit Magic.
 </ul>
+
 #
 
 <p align="center"><b>Sincerely:</b> <a href="https://github.com/neemiasbsilva">Neemias B. Silva</a></p>
