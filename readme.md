@@ -1,4 +1,4 @@
-# Some Coding Questions to Important Companies (eg. Microsoft, Adobe, ...)
+# Some Coding Questions to Important Companies (eg. Microsoft, Adobe, Google, ...)
 
 This repository was created to show some coding questions than I answer using programing language C++ and Python.
 
@@ -6,19 +6,19 @@ This repository was created to show some coding questions than I answer using pr
 You can visualize the answer according to the topic of interest:
 <ul>
     <li>Arrays;
-    <li>String;
-    <li>Linked List;
-    <li>Stack and Queue;
-    <li>Tree and BST;
-    <li>Heap;
-    <li>Recursion;
-    <li>Hashing;
-    <li>Graph;
-    <li>Greedy;
-    <li>Dynamic Programming;
-    <li>Divide and Conquer;
-    <li>Backtracking;
-    <li>Bit Magic.
+    <li>String <i>Non-disponible</i>;
+    <li>Linked List <i>Non-disponible</i>;
+    <li>Stack and Queue <i>Non-disponible</i>;
+    <li>Tree and BST <i>Non-disponible</i>;
+    <li>Heap <i>Non-disponible</i>;
+    <li>Recursion <i>Non-disponible</i>;
+    <li>Hashing <i>Non-disponible</i>;
+    <li>Graph <i>Non-disponible</i>;
+    <li>Greedy <i>Non-disponible</i>;
+    <li>Dynamic Programming <i>Non-disponible</i>;
+    <li>Divide and Conquer <i>Non-disponible</i>;
+    <li>Backtracking <i>Non-disponible</i>;
+    <li>Bit Magic <i>Non-disponible</i>.
 </ul>
 
 #
