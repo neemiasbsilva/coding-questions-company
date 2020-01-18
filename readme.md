@@ -10,7 +10,7 @@ You can visualize the answer according to the topic of interest:
     <li>Linked List <i>Non-disponible</i>;
     <li>Stack and Queue <i>Non-disponible</i>;
     <li>Tree and BST <i>Non-disponible</i>;
-    <li>Heap <i>Non-disponible</i>;
+    <li>Heap;
     <li>Recursion <i>Non-disponible</i>;
     <li>Hashing <i>Non-disponible</i>;
     <li>Graph <i>Non-disponible</i>;
