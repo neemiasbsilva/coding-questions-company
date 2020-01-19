@@ -1,3 +1,9 @@
+#################################################################################################
+# Given two sorted arrays arr1[] and arr2[] non-decreasing order with size n and m. The task is #
+# to merge the two sorted arrays into sorted array (in non-decreasing order).                   #
+#################################################################################################
+
+
 import numpy as np
 import heapq
 
