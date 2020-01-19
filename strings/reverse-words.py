@@ -6,11 +6,12 @@ def main():
 
     for i in range(n_test):
 
-        arr_strings = list(map(str, raw_input().split('.')))
+        arr_strings = list(map(str, input().split('.')))
         arr_strings = np.asarray(arr_strings)
         arr_string_reversed = arr_strings[::-1]
         for j in arr_string_reversed:
-            print(j, end='.')
+            print("%s"% (j), end='.')
+            
         print('\n')
 
 
