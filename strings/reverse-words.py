@@ -1,4 +1,4 @@
-
+import numpy as np
 
 def main():
     n_test = int(input())
@@ -6,7 +6,8 @@ def main():
     for i in range(n_test):
 
         arr_strings = list(map(str, raw_input().split('.')))
-        print(arr_strings)
+        arr_string_reversed = np.flip(arr_strings)
+        print(arr_string_reversed)
 
 if __name__ == "__main__":
     main()
