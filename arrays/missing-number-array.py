@@ -6,7 +6,7 @@ def main():
     for i in range(n_test):
         
         n = int(input())
-        array = [int(input().split())]
+        array = list(map(int, raw_input().split()))
         array = np.asarray(array, dtype=np.uint8)
         print(array)
 
