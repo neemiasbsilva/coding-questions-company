@@ -10,7 +10,7 @@ def main():
         arr_strings = np.asarray(arr_strings)
         arr_string_reversed = arr_strings[::-1]
         for j in arr_string_reversed:
-            print(j, end'.')
+            print(j, end='.')
         print('\n')
 
 
