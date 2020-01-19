@@ -8,7 +8,12 @@ def main():
         n = int(input())
         array = list(map(int, raw_input().split()))
         array = np.asarray(array, dtype=np.uint8)
-        print(array)
-
+        missing = 1
+        for j in range(n-1):
+            if array[j] == missing:
+                missing += 1
+            else:
+                break
+        print(missing)
 if __name__ == "__main__":
     main()
