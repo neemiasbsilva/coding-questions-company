@@ -1,3 +1,8 @@
+#############################################################################################################
+# Given an array C of size n-1 and given that there are numbers from 1 to N with one element missing number #
+# is to be found.                                                                                           #
+#############################################################################################################
+
 import numpy as np
 
 def main():
