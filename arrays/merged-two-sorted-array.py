@@ -13,7 +13,7 @@ def main():
         arr2 = list(map(int, raw_input().split(' ')))
 
         merged_arr =  np.concatenate((arr1, arr2), axis=1)
-        print(merged_arr)
+        print(np.sort(merged_arr))
 
 
 if __name__ == "__main__":
