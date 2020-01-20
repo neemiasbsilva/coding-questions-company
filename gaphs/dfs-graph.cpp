@@ -29,7 +29,14 @@ Graph::Graph(int V){
 void Graph::dfs(int u, bool visited[]){
     visited[u] = true;
 
-    for(int j = 0; j < (int) AdjList)
+    for(int j = 0; j < (int) AdjList[u].size(); j++){
+        int v = AdjList[u][j];
+        
+        cout << v << ' ';
+
+        if(!visited[j])
+            dfs(v, visited);
+    }
 }
 
 void Graph::addEdge(int u, int v){
@@ -49,7 +56,7 @@ int main(){
         int V, E;
         cin >> V >> E;
         Graph g(V);
-        for(int i = 0; i < V; i++){
+        for(int i = 0; i < E; i++){
             int u, v;
             cin >> u >> v;
             g.addEdge(u, v);
@@ -59,6 +66,7 @@ int main(){
         for(int i = 0; i < V; i++) visited[i] = false;
 
         g.dfs(0, visited);
+        cout << endl;
     }
     return 0;
 }
