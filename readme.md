@@ -13,7 +13,7 @@ You can visualize the answer according to the topic of interest:
     <li>Heap;
     <li>Recursion <i>Non-disponible</i>;
     <li>Hashing <i>Non-disponible</i>;
-    <li>Graphs <i>Non-disponible</i>;
+    <li>Graphs;
     <li>Greedy <i>Non-disponible</i>;
     <li>Dynamic Programming <i>Non-disponible</i>;
     <li>Divide and Conquer <i>Non-disponible</i>;
