@@ -29,10 +29,10 @@ Graph::Graph(int V){
 void Graph::dfs(int u, bool visited[]){
     visited[u] = true;
 
+    cout << u << ' ';
     for(int j = 0; j < (int) AdjList[u].size(); j++){
         int v = AdjList[u][j];
         
-        cout << v << ' ';
 
         if(!visited[j])
             dfs(v, visited);
@@ -64,7 +64,6 @@ int main(){
         bool *visited = new bool[V];
 
         for(int i = 0; i < V; i++) visited[i] = false;
-
         g.dfs(0, visited);
         cout << endl;
     }
