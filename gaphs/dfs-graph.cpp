@@ -18,7 +18,7 @@ class Graph{
         vi *AdjList;
         Graph(int V);
         void addEdge(int u, int v);
-        void dfs(int u);
+        void dfs(int u, bool visited[]);
 };
 
 Graph::Graph(int V){
@@ -26,6 +26,11 @@ Graph::Graph(int V){
     AdjList = new vi[V];
 }
 
+void Graph::dfs(int u, bool visited[]){
+    visited[u] = true;
+
+    for(int j = 0; j < (int) AdjList)
+}
 
 void Graph::addEdge(int u, int v){
     AdjList[u].push_back(v);
@@ -33,9 +38,7 @@ void Graph::addEdge(int u, int v){
 }
 
 
-void Graph::dfs(int u){
-    dfs_num
-}
+
 
 int main(){
     int n_test;
@@ -51,6 +54,11 @@ int main(){
             cin >> u >> v;
             g.addEdge(u, v);
         }
+        bool *visited = new bool[V];
+
+        for(int i = 0; i < V; i++) visited[i] = false;
+
+        g.dfs(0, visited);
     }
     return 0;
 }
