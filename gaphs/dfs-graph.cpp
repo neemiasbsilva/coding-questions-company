@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-
+#include <stack>
 #define D(x) cout << #x << " = " << (x) << endl
 #define endl '\n'
 
@@ -20,7 +20,7 @@ class Graph{
         void addEdge(int u, int v);
         void dfs(int u, bool visited[]);
 };
-
+stack<int> s;
 Graph::Graph(int V){
     this->V = V;
     AdjList = new vi[V];
@@ -28,7 +28,7 @@ Graph::Graph(int V){
 
 void Graph::dfs(int u, bool visited[]){
     visited[u] = true;
-
+    s.push(u);
     cout << u << ' ';
     for(int j = 0; j < (int) AdjList[u].size(); j++){
         int v = AdjList[u][j];
@@ -41,7 +41,7 @@ void Graph::dfs(int u, bool visited[]){
 
 void Graph::addEdge(int u, int v){
     AdjList[u].push_back(v);
-    AdjList[v].push_back(u);
+    // AdjList[v].push_back(u);
 }
 
 
@@ -65,6 +65,10 @@ int main(){
 
         for(int i = 0; i < V; i++) visited[i] = false;
         g.dfs(0, visited);
+        cout << endl;
+        while(!s.empty()){
+            cout << s.top(); s.pop();
+        }
         cout << endl;
     }
     return 0;
