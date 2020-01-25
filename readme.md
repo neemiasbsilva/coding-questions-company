@@ -10,7 +10,7 @@ You can visualize the resolutions of the problems according to the topic of inte
     <li><a href="linked-list">Linked List</a>;
     <li>Stack and Queue <b>Non-disponible</b>;
     <li>Tree and BST <b>Non-disponible</b>;
-    <li>Heap;
+    <li><a href="heaps">Heaps</a>;
     <li>Recursion <b>Non-disponible</b>;
     <li>Hashing <b>Non-disponible</b>;
     <li>Graphs;
