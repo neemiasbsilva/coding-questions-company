@@ -5,7 +5,7 @@ This repository was created to show some coding questions than I answer using pr
 #
 You can visualize the resolutions of the problems according to the topic of interest:
 <ul>
-    <li>Arrays;
+    <li><a href="arrays">Arrays</a>;
     <li>Strings;
     <li>Linked List;
     <li>Stack and Queue <b>Non-disponible</b>;
