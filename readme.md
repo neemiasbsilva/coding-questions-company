@@ -3,7 +3,7 @@
 This repository was created to show some coding questions than I answer using programing language C++ and Python.
 
 #
-You can visualize the problem answers according to the topic of interest:
+You can visualize the resolutions of the problems according to the topic of interest:
 <ul>
     <li>Arrays;
     <li>Strings;
