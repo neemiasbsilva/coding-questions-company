@@ -21,11 +21,33 @@ class LinkedList:
 		self.head = None
 
 
+	# insertion method
+	def insert(self, data):
+
+		newNode = Node(data)
+
+		if self.head:
+			current = self.head
+			while current.data < data:
+
+				current.next = current.next
+
+				if current.next == None:
+					break
+			current = newNode
+		else:
+			self.head = newNode
 
 
 def main():
 	ll = LinkedList()
-	ll.head = Node()
+	
+	ll.insert(2)
+	ll.insert(5)
+	ll.insert(7)
+	ll.insert(10)
+	ll.insert(15)
+	
 
 
 
