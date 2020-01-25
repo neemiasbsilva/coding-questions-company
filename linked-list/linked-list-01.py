@@ -51,7 +51,7 @@ class LinkedList:
 		current = self.head
 
 		while current:
-			print current.data
+			print(current.data)
 			current = current.next
 
 def main():
@@ -65,6 +65,10 @@ def main():
 
 	ll.show()
 
+	data = int(input("Enter for the input number: "))
+	ll.insert(data)
+
+	ll.show()
 
 if __name__ == '__main__':
 	main()
