@@ -76,11 +76,12 @@ int main(){
 
             //if the roads are interconections
             if(u < C && v < C && abs(u-v) == 1){
-                g.addEdgestwo(u, v, p);
+                g.addEdgestwo(u, p, v);
             }
 
         }
         C--;
+        cout << g.dijkstra(K, C) << endl;
     }
     return 0;
 }
