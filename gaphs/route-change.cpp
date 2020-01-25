@@ -57,7 +57,6 @@ int main(){
 
         }
         C--;
-        cout << g.dijkstra(K, C) << endl;
     }
     return 0;
 }
