@@ -34,6 +34,30 @@ void Graph::addEdgesone(int u, int v, int p){
     adj[u].push_back(ii(v, p));
 }
 
+int Graph::dijkstra(int s, int C){
+    vi dist(V, INT_MAX), visited(V, 0);
+    dist[s] = 0;
+
+    priority_queue<ii, vii, greater<ii> > pq; pq.push(ii(0, s));
+
+    while(!pq.empty()){
+        ii front = pq.top(); pq.pop();
+        int d = front.first, u = front.second;
+        //if(d > dist[u]) continue;
+        if(!visited[u]){
+            visited[u] = 1;
+            for(int i = 0; i < (int) adj[u].size(); i++){
+                ii v = adj[u][i];
+                if(dist[u]+v.second < dist[v.first]){
+                    dist[v.first] = dist[u] + v.second;
+                    pq.push(ii(dist[v.first], v.first));
+                }
+            }
+        }
+    }
+
+    return dist[C];
+}
 
 int main(){
     int N, M, C, K;
