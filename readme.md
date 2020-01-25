@@ -7,7 +7,7 @@ You can visualize the answer according to the topic of interest:
 <ul>
     <li>Arrays;
     <li>Strings;
-    <li>Linked List <i>Non-disponible</i>;
+    <li>Linked List;
     <li>Stack and Queue <i>Non-disponible</i>;
     <li>Tree and BST <i>Non-disponible</i>;
     <li>Heap;
