@@ -76,7 +76,7 @@ int main(){
 
             //if the roads are interconections
             if(u < C && v < C && abs(u-v) == 1){
-                g.addEdgestwo(u, p, v);
+                g.addEdgestwo(u, v, p);
             }
 
         }
