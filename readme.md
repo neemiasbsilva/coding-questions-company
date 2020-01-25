@@ -8,17 +8,17 @@ You can visualize the answer according to the topic of interest:
     <li>Arrays;
     <li>Strings;
     <li>Linked List;
-    <li>Stack and Queue <i>Non-disponible</i>;
-    <li>Tree and BST <i>Non-disponible</i>;
+    <li>Stack and Queue <b>Non-disponible</b>;
+    <li>Tree and BST <b>Non-disponible</b>;
     <li>Heap;
-    <li>Recursion <i>Non-disponible</i>;
-    <li>Hashing <i>Non-disponible</i>;
+    <li>Recursion <b>Non-disponible</b>;
+    <li>Hashing <b>Non-disponible</b>;
     <li>Graphs;
-    <li>Greedy <i>Non-disponible</i>;
-    <li>Dynamic Programming <i>Non-disponible</i>;
-    <li>Divide and Conquer <i>Non-disponible</i>;
-    <li>Backtracking <i>Non-disponible</i>;
-    <li>Bit Magic <i>Non-disponible</i>.
+    <li>Greedy <b>Non-disponible</b>;
+    <li>Dynamic Programming <b>Non-disponible</b>;
+    <li>Divide and Conquer <b>Non-disponible</b>;
+    <li>Backtracking <b>Non-disponible</b>;
+    <li>Bit Magic <b>Non-disponible</b>.
 </ul>
 
 #
