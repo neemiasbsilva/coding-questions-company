@@ -28,16 +28,31 @@ class LinkedList:
 
 		if self.head:
 			current = self.head
-			while current.data < data:
+			flag = False
+			if current.data >= data:
+				newNode.next = current
+				current = newNode
+			else:
 
-				current.next = current.next
+				while current.next and current.next.data < newNode.data:
+					current = current.next
 
-				if current.next == None:
-					break
+				newNode.next = current.next
+				current.next = newNode
+
+
+
 			current = newNode
 		else:
 			self.head = newNode
 
+	# show the Linked List
+	def show(self):
+		current = self.head
+
+		while current:
+			print current.data
+			current = current.next
 
 def main():
 	ll = LinkedList()
@@ -47,8 +62,8 @@ def main():
 	ll.insert(7)
 	ll.insert(10)
 	ll.insert(15)
-	
 
+	ll.show()
 
 
 if __name__ == '__main__':
