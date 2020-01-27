@@ -23,6 +23,18 @@ class LinkedList:
 		self.head = newNode
 
 
+	# reversed list
+	def reversed(self):
+		current = self.head
+		pre = None
+
+		while current:
+			aux = current.next
+			current.next = pre
+			pre = current
+			current = aux
+		self.head = pre
+
 	# show the list
 	def show(self):
 		current = self.head
@@ -42,6 +54,8 @@ def main():
 		for elem in arr_input:
 			ll.insert(elem)
 
+		ll.show()
+		ll.reversed()
 		ll.show()
 
 
