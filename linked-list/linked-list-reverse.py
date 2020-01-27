@@ -27,9 +27,10 @@ class LinkedList:
 	def show(self):
 		current = self.head
 		while current:
-			print(current.data)
+			print(current.data, end=" ")
 			current = current.next
 
+		print("")
 def main():
 	n_cases = int(input())
 
