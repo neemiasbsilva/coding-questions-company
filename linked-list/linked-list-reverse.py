@@ -17,9 +17,20 @@ class LinkedList:
 
 
 	# insertion
+	def insert(self, data):
+		newNode = Node(data)
+		
+		if self.head:
+			current = self.head
+			while current:
+				current = current.next
+
+			current = newNode
+		else:
+			self.head = newNode
 
 
-
+	#
 
 def main():
 	n_cases = int(input())
@@ -29,7 +40,7 @@ def main():
 		length = int(input())
 		arr_input = list(map(int, input().split(' ')))
 
-		
+
 
 
 
