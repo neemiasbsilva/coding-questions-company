@@ -30,7 +30,12 @@ class LinkedList:
 			self.head = newNode
 
 
-	#
+	# show the list
+	def show(self):
+		current = self.head
+		while current:
+			print(current.data)
+			current = current.next
 
 def main():
 	n_cases = int(input())
