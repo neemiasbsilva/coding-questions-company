@@ -40,7 +40,7 @@ class LinkedList:
 def main():
 	n_cases = int(input())
 
-	for i in n_cases:
+	for i in range(n_cases):
 		ll = LinkedList()
 		length = int(input())
 		arr_input = list(map(int, input().split(' ')))
