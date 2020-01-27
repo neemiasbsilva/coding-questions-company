@@ -19,15 +19,8 @@ class LinkedList:
 	# insertion
 	def insert(self, data):
 		newNode = Node(data)
-		
-		if self.head:
-			current = self.head
-			while current:
-				current = current.next
-
-			current = newNode
-		else:
-			self.head = newNode
+		newNode.next = self.head
+		self.head = newNode
 
 
 	# show the list
@@ -45,6 +38,10 @@ def main():
 		length = int(input())
 		arr_input = list(map(int, input().split(' ')))
 
+		for elem in arr_input:
+			ll.insert(elem)
+
+		ll.show()
 
 
 
