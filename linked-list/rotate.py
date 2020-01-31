@@ -18,13 +18,38 @@ class LinkedList:
 		self.head = newNode
 
 
+	def show(self):
+		current = self.head
+
+		while current:
+			print(current.data, end=' ')
+			current = current.next
+
 
 	def rotate(self, k):
 
-		current = self.head
+		if k == 0:
+			return
 
+		current = self.head
+		count  = 1
 		while current.data != k:
 			curent = current.next
+			count += 1
+
+	    kthNode = current
+
+	    while current.next is not None:
+	    	current = current.next
+
+	    current.next = self.head
+
+	    self.head = kthNode
+
+	    kthNode = None
+
+
+
 
 main():
 
