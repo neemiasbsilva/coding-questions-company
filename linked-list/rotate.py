@@ -50,7 +50,7 @@ class LinkedList:
 
 		self.head = kthNode.next
 
-		kthNode = None
+		kthNode.next = None
 
 
 
