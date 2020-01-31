@@ -17,6 +17,15 @@ class LinkedList:
 		newNode.next = self.head
 		self.head = newNode
 
+
+
+	def rotate(self, k):
+
+		current = self.head
+
+		while current.data != k:
+			curent = current.next
+
 main():
 
 	n_case = int(input())
