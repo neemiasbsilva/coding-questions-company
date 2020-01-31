@@ -72,10 +72,12 @@ def main():
 
 		k = int(inpu())
 
-		
+
 		ll.rotate()
 
+		ll.show()
 
+		print('')
 
 
 
