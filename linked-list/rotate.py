@@ -1,4 +1,10 @@
 
+class Node:
+
+	def __init__(self, data):
+		self.data = data
+		self.next = None
+
 
 main():
 
@@ -9,6 +15,8 @@ main():
 		length = int(input())
 
 		arr = list(map(int, input().split(' ')))
+
+
 
 if __name__ == '__main__':
 	main()
