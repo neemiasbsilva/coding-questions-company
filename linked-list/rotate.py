@@ -70,7 +70,7 @@ def main():
 		for i in arr:
 			ll.insert(i)
 
-		k = int(inpu())
+		k = int(input())
 
 
 		ll.rotate()
