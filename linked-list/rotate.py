@@ -12,6 +12,11 @@ class LinkedList:
 
 
 
+	def insert(self, data):
+		newNode = Node(data)
+		newNode.next = self.head
+		self.head = newNode
+
 main():
 
 	n_case = int(input())
