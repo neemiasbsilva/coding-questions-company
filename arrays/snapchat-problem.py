@@ -5,14 +5,16 @@
 import numpy as np
 
 def main():
-	n_case = int(input())
+	
+	arr = [(30, 75), (20, 50), (0, 40), (60, 150)]
 
-	for i in range(n_case):
+	arr = np.array(arr)
+	out = 999999999999999999
+	
+	for x in arr:
+		out = min(out, x[1])
 
-		arr = [(30, 75), (20, 50), (0, 40), (60, 150)]
-
-		arr = np.array(arr)
-
+	print(out) 
 
 
 
