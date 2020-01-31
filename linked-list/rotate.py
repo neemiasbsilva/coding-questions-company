@@ -37,21 +37,25 @@ class LinkedList:
 			curent = current.next
 			count += 1
 
-	    kthNode = current
+		
+		kthNode = current
 
-	    while current.next is not None:
-	    	current = current.next
-
-	    current.next = self.head
-
-	    self.head = kthNode
-
-	    kthNode = None
+		while current.next:
+			current = current.next
 
 
 
 
-main():
+		current.next = self.head
+
+		self.head = kthNode
+
+		kthNode = None
+
+
+
+
+def main():
 
 	n_case = int(input())
 
@@ -60,6 +64,18 @@ main():
 		length = int(input())
 
 		arr = list(map(int, input().split(' ')))
+
+		ll = LinkedList()
+
+		for i in arr:
+			ll.insert(i)
+
+		k = int(inpu())
+
+		
+		ll.rotate()
+
+
 
 
 
