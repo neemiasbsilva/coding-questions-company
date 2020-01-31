@@ -40,7 +40,7 @@ class LinkedList:
 		
 		kthNode = current
 
-		while current.next:
+		while current.next is not None:
 			current = current.next
 
 
