@@ -9,9 +9,9 @@ def main():
 
 	for i in range(n_case):
 
-		length = int(input())
+		arr = [(30, 75), (20, 50), (0, 40), (60, 150)]
 
-		l = list(map(int, input().split(' ')))
+		arr = np.array(arr)
 
 
 
