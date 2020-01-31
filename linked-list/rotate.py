@@ -33,7 +33,7 @@ class LinkedList:
 
 		current = self.head
 		count  = 1
-		while current.data != k:
+		while count < k and current:
 			curent = current.next
 			count += 1
 
