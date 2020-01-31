@@ -73,7 +73,7 @@ def main():
 		k = int(input())
 
 
-		ll.rotate()
+		ll.rotate(k)
 
 		ll.show()
 
