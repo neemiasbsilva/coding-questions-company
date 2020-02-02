@@ -1,16 +1,17 @@
 
+def longest_palindrome(s):
+
+    dp = [[0 for x in range(len(s))] for y in range(len(s))]
+
+    print(dp)
+
 def main():
     n_case = int(input())
 
-    for i in n_case:
+    for i in range(n_case):
         s = str(input())
 
-        l = list(s)
-
-        for j in range(len(l)):
-            print(l[j], end=' ')
-
-        print('')
+        longest_palindrome(s)
 
 if __name__ == "__main__":
     main()
