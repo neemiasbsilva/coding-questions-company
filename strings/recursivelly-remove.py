@@ -7,6 +7,8 @@ def main():
     n_case = int(input())
 
     for i in range(n_case):
+        s = str(input())
+
         
 
 if __name__ == "__main__":
