@@ -8,7 +8,7 @@ You can visualize the resolutions of the problems according to the topic of inte
     <li><a href="arrays">Arrays</a>;
     <li><a href="strings">Strings</a>;
     <li><a href="linked-list">Linked List</a>;
-    <li>Stack and Queue <b>Non-disponible</b>;
+    <li><a href="stack-and-queue">Stack and Queue</a>;
     <li>Tree and BST <b>Non-disponible</b>;
     <li><a href="heaps">Heaps</a>;
     <li>Recursion <b>Non-disponible</b>;
